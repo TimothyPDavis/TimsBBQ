@@ -1,0 +1,49 @@
+/* This is stylesheet.css an external style sheet*/
+	/* Style whole page */
+	body{
+	color: #ce961e;
+	margin: 0;
+	background-color:rgb(34, 30, 19);
+	}
+	/* Wrapper div controls width of entire layout */
+	#wrapper {
+ 	width: 95%;
+	min-width:580px;
+	max-width:1400px;
+	border:solid 1px silver;
+	border-radius:4px;
+	margin:10px auto;
+	background-color:#fff9e6;
+	
+}
+	/* Page header at the top of each page */
+	header{
+	background-color: #f8aa35;
+	color: white;
+	height:60px;
+	line-height:60px;
+	}
+	/* Navigation bar */
+	nav{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+	}
+	/* Navigation bar links ((<a> tags) */
+	nav a{
+	text-decoration:none;
+	color:white;
+	font-size:115%;
+	}
+	/* Level 1 and Level 2 headings */
+	/* Main content below the header and navbar */
+	main{
+	padding:8px;
+	}
+	h1{
+	margin: 0;
+	}
+	h2{ 
+	color: #f8aa35f;
+	}
